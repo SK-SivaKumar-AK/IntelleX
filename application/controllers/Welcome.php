@@ -19,7 +19,6 @@ class Welcome extends CI_Controller {
 			"page" => "about"
 		];
 		$this->load->view('components/global_header' , $global_header_data);
-		$this->load->view('components/global_header');
 		$this->load->view('about');
 		$this->load->view('components/global_footer');
 	}
