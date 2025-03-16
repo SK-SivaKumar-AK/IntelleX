@@ -38,23 +38,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="/service" class="nav-link <?php echo ($page == 'service')? 'active': '' ?>">
                                 Services
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="/project" class="nav-link <?php echo ($page == 'project')? 'active': '' ?>">
                                 Projects
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="/pricing" class="nav-link <?php echo ($page == 'pricing')? 'active': '' ?>">
                                 Pricing
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="/contact" class="nav-link <?php echo ($page == 'contact')? 'active': '' ?>">
                                 Contact
                             </a>
                         </li>
