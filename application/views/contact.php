@@ -125,8 +125,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<div class="col-lg-12">
                                         <button type="submit" class="default-btn">Send Message</button>
                                         
-                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                        <div class="clearfix"></div>
+                                        <div id="response"></div>
 									</div>
 								</div>
 							</form>

@@ -35,5 +35,62 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <script src="assets/js/progressbar.min.js"></script>
         <!-- Main JS -->
         <script src="assets/js/main.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('#consultationForm').submit(function (e) {
+                    e.preventDefault();
+
+                    
+                    var formData = $(this).serialize();
+                    $('#response').html('<div class="alert alert-info" role="alert">Sending email... <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span></div>');
+                    
+                    $.ajax({
+                        url: '<?php echo base_url('welcome/consulting_send_email'); ?>',
+                        type: 'POST',
+                        data: formData,
+                        dataType: 'json',
+                        success: function(response) {
+                            $('#response').html('');
+                            if(response.status) {
+                                $("#consultationForm")[0].reset();
+                                $('#response').html('<div class="alert alert-success" role="alert">' + response.message + '</div>');
+                            } else {
+                                $('#response').html('<div class="alert alert-danger" role="alert">' + response.message + '</div>');
+                            }
+                        },
+                        error: function() {
+                            $('#response').html('<div class="alert alert-danger" role="alert">There was an error sending the email.</div>');
+                        }
+                    });
+                });
+
+                $('#contactForm').submit(function (e) {
+                    e.preventDefault();
+
+                    
+                    var formData = $(this).serialize();
+                    $('#response').html('<div class="alert alert-info" role="alert">Sending email... <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span></div>');
+                    
+                    $.ajax({
+                        url: '<?php echo base_url('welcome/contact_send_email'); ?>',
+                        type: 'POST',
+                        data: formData,
+                        dataType: 'json',
+                        success: function(response) {
+                            $('#response').html('');
+                            if(response.status) {
+                                $("#contactForm")[0].reset();
+                                $('#response').html('<div class="alert alert-success" role="alert">' + response.message + '</div>');
+                            } else {
+                                $('#response').html('<div class="alert alert-danger" role="alert">' + response.message + '</div>');
+                            }
+                        },
+                        error: function() {
+                            $('#response').html('<div class="alert alert-danger" role="alert">There was an error sending the email.</div>');
+                        }
+                    });
+                });
+            });
+        </script>
     </body >
 </html>

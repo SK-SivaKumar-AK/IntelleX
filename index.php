@@ -304,6 +304,13 @@ switch (ENVIRONMENT)
 	}
 
 	define('VIEWPATH', $view_folder.DIRECTORY_SEPARATOR);
+	
+
+// ---------------------------------------------------------------
+// Load Composer's autoloader here
+// ---------------------------------------------------------------
+require_once FCPATH . 'vendor/autoload.php'; // Autoload Composer dependencies
+
 
 /*
  * --------------------------------------------------------------------

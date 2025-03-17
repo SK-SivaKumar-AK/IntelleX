@@ -210,21 +210,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="request-area">
                     <h3>Submit a Request</h3>
                     <div class="request-form">
-                        <form>
+                        <form id="consultationForm">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Whats Your Name">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="What's Your Name">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Your Phone Number">
+                                <input type="text" class="form-control" id="phone" name="phone" placeholder="Your Phone Number">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Time for call">
+                                <input type="text" class="form-control" id="time" name="time" placeholder="Time for call">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Your Message">
+                                <input type="text" class="form-control" id="message" name="message" placeholder="Your Message">
                             </div>
-                            <button type="submit" class="btn btn-primary">Call For Consultent</button>
+                            <button type="submit" class="btn btn-primary">Call For Consultation</button>
                         </form>
+                        <div id="response"></div>
                     </div>
                 </div>    
             </div>
