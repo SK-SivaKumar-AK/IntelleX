@@ -10,8 +10,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="exto-responsive-menu">
                 <div class="logo">
                     <a href="index.html">
-                        <img src="assets/img/logo/logo.png" class="main-logo" alt="logo" width="140px">
-                        <img src="assets/img/logo/logo.png" class="white-logo" alt="logo">
+                        <img src="assets/img/logo/logo.png" class="main-logo" alt="logo" width="140px" style="border-radius: 10px;">
+                        <img src="assets/img/logo/logo.png" class="white-logo" alt="logo" style="border-radius: 10px;">
                     </a>
                 </div>
             </div>
@@ -22,8 +22,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand" href="index.html">
-                    <img src="assets/img/logo/logo.png" class="main-logo" alt="logo" width="160px">
-                    <img src="assets/img/logo/logo.png" class="white-logo" alt="logo">
+                    <img src="assets/img/logo/logo.png" class="main-logo" alt="logo" width="160px" style="border-radius: 20px;">
+                    <img src="assets/img/logo/logo.png" class="white-logo" alt="logo" style="border-radius: 20px;">
                 </a>
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav">
@@ -85,8 +85,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </span>
                     </button>
                     <h2 class="modal-title" id="myModalLabel2">
-                        <a href="index.html">
-                            <img src="assets/img/logo/logo.png" alt="Logo">
+                        <a href="/">
+                            <img src="assets/img/logo/logo.png" alt="Logo" style="border-radius: 50px;">
                         </a>
                     </h2>
                 </div>
@@ -105,12 +105,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <span>6C Raja St, TVS Tolgate, Trichy</span>
                             </li>
                             <li>
-                                <i class="fa fa-phone"></i>
+                                <i class="fa fa-envelope"></i>
                                 Email
                                 <span>intellex.webcompany@gmail.com</span>
                             </li>
                             <li>
-                                <i class="fa fa-envelope"></i>
+                                <i class="fa fa-phone"></i>
                                 Phone
                                 <span>9629080081</span>
                             </li>

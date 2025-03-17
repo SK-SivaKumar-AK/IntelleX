@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="row justify-content-between">
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div class="footer-area-content">
-                    <img src="assets/img/logo/logo.png" alt="image">
+                    <img src="assets/img/logo/logo.png" alt="image" style="border-radius: 50px;">
                     <p>we focus on developing websites that not only look great but also help your business grow.</p>
                 </div>
             </div>
