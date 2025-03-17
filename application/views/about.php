@@ -54,7 +54,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <p>we are passionate about creating custom websites that help businesses succeed online. Our team of skilled web developers specializes in building fast, responsive, and user-friendly websites tailored to meet the unique needs of each client.</p>
                     <p>We believe in clear communication, transparency, and ongoing support, working closely with clients throughout the development process and beyond to ensure their success.</p>
                     <div class="about-btn">
-                        <a href="#" class="about-btn-one">Discover More</a>
+                        <a href="/service#our_service" class="about-btn-one">Discover More</a>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!-- End About Section -->
 
 <!-- Start What We Do Section -->
-<section class="what-we-do-section pb-100">
+<section class="what-we-do-section pb-100" id="what_we_do">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-12">
@@ -74,7 +74,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <p>We specialize in crafting data-driven digital strategies that align with your business goals. Whether you're looking to increase your online presence, optimize your customer engagement, or expand into new markets, we design customized solutions that deliver measurable results.</p>
                     <p>Our suite of digital services is designed to help your business grow in the digital age. From website development and digital marketing to SEO, branding, and ongoing support, we are your all-in-one partner for digital success.</p>
                     <div class="we-btn">
-                        <a href="#" class="we-btn-one">Discover More</a>
+                        <a href="/service#our_service" class="we-btn-one">Discover More</a>
                     </div>
                 </div>
             </div>

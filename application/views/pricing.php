@@ -203,7 +203,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!-- End Saying Section -->
 
 <!-- Start Request Section -->
-<section class="request-section ptb-100">
+<section class="request-section ptb-100" id="quotes">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">

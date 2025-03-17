@@ -38,7 +38,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!-- End Page Title Area -->
 
         <!-- Start Productive Section -->
-        <section class="productive-section ptb-100">
+        <section class="productive-section ptb-100" id="our_service">
             <div class="container">
                 <div class="productive-title">
                     <span>Why Our services</span>
@@ -98,7 +98,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <p>We employ the latest tools, trends, and technologies to bring fresh ideas to the table, helping you stand out in a competitive market.</p>
                             </div>
                             <div class="needs-btn">
-                                <a href="about.html" class="needs-btn-one">Discover More</a>
+                                <a href="/pricing#quotes" class="needs-btn-one">Get Quote</a>
                             </div>
                         </div>
                     </div>

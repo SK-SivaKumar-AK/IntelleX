@@ -29,7 +29,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <h1>Business Makes Success <b>Strategy</b></h1>
                             <p>Forward-thinking website development agency specializing in creating sleek, user-friendly, and high-performance websites for businesses of all sizes. </p>
                             <div class="startup-btn">
-                                <a href="#" class="startup-btn-one">
+                                <a href="/pricing#quotes" class="startup-btn-one">
                                     Get A Quote <i class="fa fa-arrow-right"></i>
                                 </a>
                                 <a href="https://www.youtube.com/watch?v=_ysd-zHamjk" class="startup-btn-two popup-youtube">
@@ -185,10 +185,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                     </div>
                     <div class="grow-btn">
-                        <a href="#" class="grow-btn-one">Discover More 
+                        <a href="/service#our_service" class="grow-btn-one">Discover More 
                             <i class="fa fa-arrow-right"></i>
                         </a>
-                        <a href="#" class="grow-btn-two">How it’s work 
+                        <a href="/about#what_we_do" class="grow-btn-two">How it’s work 
                             <i class="fa fa-arrow-right"></i>
                         </a>
                     </div>
@@ -243,7 +243,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <p>Our team of experts proactively manages and maintains your IT infrastructure, from network security and system updates to hardware support and troubleshooting. </p>
                     </div>
                     <div class="develop-btn">
-                        <a href="#" class="develop-btn-one">
+                        <a href="/service#our_service" class="develop-btn-one">
                             Discover More
                             <i class="fa fa-arrow-right"></i>
                         </a>

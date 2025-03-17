@@ -19,13 +19,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <h3>Company</h3>
                     <ul class="footer-quick-links">
                         <li>
-                            <a href="contact.html">Support Center</a>
+                            <a href="#">Support Center</a>
                         </li>
                         <li>
-                            <a href="contact.html">Customer Support</a>
+                            <a href="#">Customer Support</a>
                         </li>
                         <li>
-                            <a href="about.html">Copyright</a>
+                            <a href="#">Copyright</a>
                         </li>
                     </ul>
                 </div>
@@ -37,19 +37,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <h3>Our Information</h3>
                     <ul class="footer-quick-links address-link">
                         <li>
-                            <a href="contact.html">
+                            <a href="/contact">
                                 <i class="fa fa-map-marker"></i>
                                 6C Raja St, TVS Tolgate, Trichy
                             </a>
                         </li>
                         <li>
-                            <a href="/cdn-cgi/l/email-protection#553c3b333a15302d213a7b363a38">
+                            <a href="mailto:intellex.webcompany@gmail.com">
                                 <i class="fa fa-envelope"></i>
                                 <span>intellex.webcompany@gmail.com</span>
                             </a>
                         </li>
                         <li>
-                            <a href="tel:098-123-23455">
+                            <a href="tel:9629080081">
                                 <i class="fa fa-phone"></i>
                                 <span>9629080081</span>
                             </a>
@@ -89,10 +89,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-lg-6 col-md-6">
                     <ul>
                         <li>
-                            <a href="about.html">Privacy Policy</a>
+                            <a href="#">Privacy Policy</a>
                         </li>
                         <li>
-                            <a href="about.html">Terms & Conditions</a>
+                            <a href="#">Terms & Conditions</a>
                         </li>
                     </ul>
                 </div>
